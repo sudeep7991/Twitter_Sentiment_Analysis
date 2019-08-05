@@ -42,7 +42,7 @@ if __name__ == '__main__':
     train_size = 15000
 	
 	#Step 1 delete data file if exists
-    '''if(path.exists('data/tweetdata'+str(train_size)+'.txt')):
+    if(path.exists('data/tweetdata'+str(train_size)+'.txt')):
         os.remove('data/tweetdata'+str(train_size)+'.txt')
         print("Step 1: File Deleted!")
 	#Step 2 Create file
@@ -60,7 +60,7 @@ if __name__ == '__main__':
     stream.filter(track=['depression', 'anxiety', 'mental health', 'suicide', 'stress', 'sad'])
 	
 
-    print("Downloading data finished")'''
+    print("Downloading data finished")
 	
 # Preprocessing training data
     print("Step 4: Preprocessing training data")
